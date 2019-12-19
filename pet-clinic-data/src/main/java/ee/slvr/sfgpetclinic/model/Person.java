@@ -1,4 +1,4 @@
-package sfgpetclinic.model;
+package ee.slvr.sfgpetclinic.model;
 
 public class Person {
     private String firstName;
