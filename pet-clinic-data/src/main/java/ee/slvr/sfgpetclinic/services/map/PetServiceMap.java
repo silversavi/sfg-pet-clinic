@@ -1,11 +1,11 @@
 package ee.slvr.sfgpetclinic.services.map;
 
 import ee.slvr.sfgpetclinic.model.Pet;
-import ee.slvr.sfgpetclinic.services.CrudService;
+import ee.slvr.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
